@@ -78,7 +78,7 @@ export default class CreateExercise extends Component {
   
     console.log(exercise);
 
-    axios.post('https://mernexercisetrackerbackend.onrender.com/exercise/add', exercise)  
+    axios.post('https://mernexercisetrackerbackend.onrender.com/exercises/add', exercise)  
     .then(res => console.log(res.data));
     
     window.location = '/';
